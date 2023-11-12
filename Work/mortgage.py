@@ -17,6 +17,8 @@ while principal > 0:
   if num_months >= extra_payment_start_month and num_months <= extra_payment_end_month:
     principal = principal - extra_pmt
     total_paid = total_paid + extra_pmt
+  print(num_months,total_paid,principal)
   
 
-print('Total paid',total_paid, num_months,'months')
+print('Total paid',total_paid) 
+print('Months',num_months)
