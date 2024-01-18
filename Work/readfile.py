@@ -28,3 +28,11 @@ for line in f:
   print(row)
 
 f.close()
+
+#gzip
+import gzip
+with gzip.open('Data/portfolio.csv.gz', 'rt') as f:
+  for line in f:
+    print(line, end='')
+
+
